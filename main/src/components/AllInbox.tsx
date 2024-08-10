@@ -14,7 +14,7 @@ function AllInbox({
 }) {
   async function reloadHandler() {
     const token = localStorage.getItem("token");
-    await axios.get("https://hiring.reachinbox.xyz/api/v1/onebox/list", {
+    await axios.get("https://hiring.reachinbox.xyz/api/v1/onebox/reset", {
       headers: {
         Authorization: token,
       },
@@ -114,7 +114,7 @@ function Mail({
       <div>
         <div className="flex justify-between">
           <div className="dark:text-white text-black text-lg font-normal">{fromEmail}</div>
-          <div className="dark:text-[#FCFCFC66] text-[#919EAB] font-thin pr-3">Jul 3</div>
+          <div className="dark:text-[#FCFCFC66] text-[#919EAB] font-thin pr-3">Mar 7</div>
         </div>
         <div className="py-2 dark:text-[#E1E0E0] text-gray-600 font-normal">
           {trimSubject(subject, 7)}
