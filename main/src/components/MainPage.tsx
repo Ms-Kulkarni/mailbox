@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import axios from "axios";
-import AllInbox from "./Inbox";
+import AllInbox from "./AllInbox";
 import CenterPage from "./CenterPage";
 import RightSection from "./RightSection";
 
