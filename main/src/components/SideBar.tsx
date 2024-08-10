@@ -43,8 +43,8 @@ function SideBar({ onMenuItemClick }: any) {
           <IoStatsChartSharp />
         </div>
       </div>
-      <div className="text-white bg-green-500 p-2 rounded-full">
-        PS
+      <div className="text-white bg-blue-400 p-2 rounded-full">
+        MK
       </div>
     </div>
   );
